@@ -1,0 +1,221 @@
+@media all and (max-width: 1024px) {
+  .About_Us_section_content {
+    height: max-content;
+  }
+  .About_Us_card {
+    display: block;
+  }
+
+  .About_Us_card_text h2 {
+    font-size: 2.2rem;
+  }
+  .About_Us_section_content {
+    padding: 10px 42px 15px 42px;
+  }
+  .Explore_cards_container {
+    flex-direction: column;
+  }
+  .About_Us_tag {
+    font-size: 0.8rem;
+  }
+  .Explore_heading h2 {
+    font-size: 2.2rem;
+  }
+  .services_heading h2 {
+    font-size: 2.2rem;
+  }
+  .Testimonial_cards_container {
+    display: block;
+    text-align: center;
+  }
+  .Hero_section_header {
+    justify-content: space-between;
+  }
+}
+@media all and (max-width: 991px) {
+  .Hero_section_meta_data {
+    padding: 0px 15px 0px 15px;
+  }
+  .Hero_section_main_heading {
+    font-size: 3.8rem;
+  }
+  .About_Us_section_content {
+    height: max-content;
+  }
+  .About_Us_card {
+    display: block;
+  }
+
+  .About_Us_card_text h2 {
+    font-size: 2rem;
+  }
+  .About_Us_section_content {
+    padding: 10px 40px 15px 40px;
+  }
+  .statestic_data_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+  }
+  .statestic_items span {
+    font-size: 40px;
+  }
+  .About_Us_card img {
+    text-align: center;
+  }
+  .Explore_heading h2 {
+    font-size: 2rem;
+  }
+  .services_heading h2 {
+    font-size: 2rem;
+  }
+  .services_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .Hero_section_meta_data {
+    padding: 0px 10px 0px 10px;
+  }
+  .Hero_section_main_heading {
+    font-size: 3.4rem;
+  }
+  .About_Us_section_content {
+    height: max-content;
+  }
+  .About_Us_card {
+    display: block;
+  }
+
+  .About_Us_card_text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .About_Us_card_text h2 {
+    font-size: 1.8rem;
+  }
+  .About_Us_section_content {
+    padding: 10px 35px 15px 35px;
+  }
+
+  .statestic_data_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+  }
+  .statestic_items span {
+    font-size: 40px;
+  }
+  .Explore_heading h2 {
+    font-size: 1.8rem;
+  }
+  .services_heading h2 {
+    font-size: 1.8rem;
+  }
+  .services_cards_container {
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .footer_container {
+    display: block;
+  }
+  .Footer_p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .foot_con {
+    flex-wrap: wrap;
+  }
+  .foot_con .Footer_Quick_Links {
+    width: 50%;
+    align-items: start;
+    padding-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .Hero_section_main_heading {
+    font-size: 3rem;
+  }
+  .About_Us_section_content {
+    height: max-content;
+  }
+  .About_Us_card {
+    display: block;
+  }
+
+  .About_Us_card_text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .About_Us_card_text h2 {
+    font-size: 1.5rem;
+  }
+  .About_Us_section_content {
+    padding: 10px 25px 10px 25px;
+  }
+  .statestic_data_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .statestic_items span {
+    font-size: 40px;
+  }
+  .Explore_heading {
+    font-size: 1.5rem;
+  }
+  .services_heading h2 {
+    font-size: 1.5rem;
+  }
+  .services_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media all and (max-width: 390px) {
+  .Hero_section_main_heading {
+    font-size: 2.5rem;
+  }
+  .About_Us_section_content {
+    height: max-content;
+  }
+  .About_Us_card {
+    display: block;
+  }
+  .Read_more {
+    width: 100%;
+  }
+  .About_Us_card_text p {
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+  .About_Us_card_text h2 {
+    font-size: 1rem;
+  }
+  .About_Us_section_content {
+    padding: 10px 20px 10px 20px;
+  }
+  .statestic_data_container {
+    flex-wrap: wrap;
+  }
+  .statestic_data_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .statestic_items span {
+    font-size: 40px;
+  }
+  .services_cards_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+  }
+}
